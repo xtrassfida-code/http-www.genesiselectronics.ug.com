@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #0a2342;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a.active, nav a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+  }
+  
+  .hero {
+    background: url('https://i.ibb.co/abcd1234/background.jpg') center/cover;
+    color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .btn {
+    background: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: white;
+  }
+  
+  .features div {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    background: #0a2342;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #0a2342;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
